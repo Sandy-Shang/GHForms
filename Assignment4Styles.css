@@ -1,0 +1,50 @@
+﻿@import url('file:///C:/Users/syph1/Dropbox/COLLEGE/COMP125/Week1/COMP125002/COMP125002/Assignment1/Assignment1Styles.css');
+body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: #00285E;
+	background-color: #F6F6F6;
+}
+.fieldLabel {
+	text-align: right;
+}
+.labelCenter {
+	text-align: center;
+}
+h3 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: x-large;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #00285E;
+}
+
+
+
+.labelTitle {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: left;
+	color: #CE1141;
+}
+a {
+	text-decoration: none;
+	color: #CE1141;
+}
+footer {
+	font-size: x-small;
+}
+.labelTop {
+	vertical-align: top;
+	text-align: right;
+}
+div {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0px 5px;
+	border-color: #00285E;
+}
+h4 {
+	color: #CE1141;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-decoration: none;
+}

@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<!-- Created by: Sandy Shang - Created on: Jan. 25, 2021 -->
+
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment 4 - Sandy Shang</title>
+<meta content="COMP213, Assignment 4" name="keywords">
+<meta content="COMP213 -Assignment 4 - Sandy Shang 301177535" name="description">
+<link href="Assignment4Styles.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+@import url('file:///C:/Users/syph1/Dropbox/COLLEGE/COMP125/Week1/COMP125002/COMP125002/Assignment1/Assignment1Styles.css');
+</style>
+
+</head>
+<div>
+<body>
+
+<header>
+	<h1>
+	<a href="https://www.guelphhumber.ca/" target="_blank">
+	<img alt="GH Logo" height="119" src="Images/ghlogo.png" width="980" class="auto-style2"></a></h1>
+	<h3><span lang="en-ca">Continuing Education Course/Instructor Evaluation</span></h3>
+	<p><span lang="en-ca"><strong>Please read each statement carefully and consider each 
+	one individually. Give only <span class="auto-style1">one answer</span> for each question.
+	</strong> </span></p>
+	<form action="mailto:yshang4@my.centennialcollege.ca" method="post">
+		<table style="width: 100%" cellpadding="3" cellspacing="0">
+			<tr>
+				<td class="fieldLabel" style="width: 445px">
+		<span lang="en-ca">Course Name/Code:</span></td>
+				<td><select name="lstCourse" size="1" tabindex="1">
+		<option value="AHSS1110">AHSS1110 Introduction to Psychology: Dynamics</option>
+				<option value="AHSS1160">AHSS1160 Crime and Criminal Justice
+				</option>
+				<option value="AHSS1130">AHSS1130 Principals of Sociology
+				</option>
+				<option value="AHSS1150">AHSS1150 Introduction to Law</option>
+				<option value="JUST1000">JUST1000 Health and Wellness</option>
+				<option value="AHSS1140">AHSS1140 Public Sector Management
+				</option>
+				<option value="JUST1010">JUST1010 Criminal Offences</option>
+				<option value="JUST1020">JUST1020 Introduction to Police Powers
+				</option>
+				<option value="JUST2030">JUST2030 Provincial Legislation
+				</option>
+				<option value="AHSS1210">AHSS1210 Reading and Writing Effectively
+				</option>
+		</select></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">Semester:</span></td>
+				<td>
+				<input name="optSemester" type="radio" value="Fall" tabindex="3"><span lang="en-ca">Fall</span><input name="optSemester" type="radio" value="Winter" tabindex="5"><span lang="en-ca">Winter</span><input name="optSemester" type="radio" value="Spring/Summer" tabindex="7"><span lang="en-ca">Spring/Summer</span></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">Year:</span></td>
+				<td><select name="lstYear" size="1" tabindex="9">
+		<option>2018</option>
+				<option>2019</option>
+				<option>2020</option>
+				<option>2021</option>
+		</select></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">Instructor:</span></td>
+				<td>
+				<input name="txtInstruc" type="text" size="25" tabindex="11"></td>
+			</tr>
+			<tr class="labelTitle">
+				<td class="fieldTitle" style="width: 445px">
+		<span lang="en-ca"><strong>How would you rate the instructor's:</strong></span></td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">1. Knowledge 
+		of subject?</span></td>
+				<td>
+				<input name="optKnowledge" type="radio" value="E" tabindex="13"><span lang="en-ca">Excellent</span><input name="optKnowledge" type="radio" value="G" tabindex="15"><span lang="en-ca">Good</span><input name="optKnowledge" type="radio" value="F" tabindex="17"><span lang="en-ca">Fair</span><input name="optKnowledge" type="radio" value="S" tabindex="19"><span lang="en-ca">Satisfactory</span></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">2. Helpfulness?</span></td>
+				<td><span lang="en-ca">
+				<input name="optHelp" type="radio" value="E" tabindex="21">Excellent<input name="optHelp" type="radio" value="G" tabindex="23">Good<input name="optHelp" type="radio" value="F" tabindex="25">Fair<input name="optHelp" type="radio" value="S" tabindex="27">Satisfactory</span></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">3. Courtesy and respect for all students?</span></td>
+				<td><span lang="en-ca">
+		<input name="optCourt" type="radio" value="E" tabindex="29">Excellent<input name="optCourt" type="radio" value="G" tabindex="31">Good<input name="optCourt" type="radio" value="F" tabindex="33">Fair<input name="optCourt" type="radio" value="S" tabindex="35">Satisfactory</span></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">4. Communication skills?</span></td>
+				<td><span lang="en-ca"> 
+				<input name="optCom" type="radio" value="E" tabindex="37">Excellent<input name="optCom" type="radio" value="G" tabindex="39">Good<input name="optCom" type="radio" value="F" tabindex="41">Fair<input name="optCom" type="radio" value="S" tabindex="43">Satisfactory</span></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">5. Overall performance?</span></td>
+				<td><span lang="en-ca"> 
+				<input name="optOver" type="radio" value="E" tabindex="45">Excellent<input name="optOver" type="radio" value="G" tabindex="47">Good<input name="optOver" type="radio" value="F" tabindex="49">Fair<input name="optOver" type="radio" value="S" tabindex="51">Satisfactory</span></td>
+			</tr>
+			<tr class="labelTitle">
+				<td class="fieldTitle" style="width: 445px"><span lang="en-ca"><strong>Course:</strong></span></td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">6. How would you rate the course materials?</span></td>
+				<td><span lang="en-ca">
+		<input name="optMat" type="radio" value="E" tabindex="53">Excellent<input name="optMat" type="radio" value="G" tabindex="55">Good<input name="optMat" type="radio" value="F" tabindex="57">Fair<input name="optMat" type="radio" value="S" tabindex="59">Satisfactory</span></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">7. How much did this course meet your expectations?</span></td>
+				<td><span lang="en-ca">
+		<input name="optExpect" type="radio" value="E" tabindex="61">Excellent<input name="optExpect" type="radio" value="G" tabindex="63">Good<input name="optExpect" type="radio" value="F" tabindex="65">Fair<input name="optExpect" type="radio" value="S" tabindex="67">Satisfactory</span></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">8. How would you rate this course overall?</span></td>
+				<td><span lang="en-ca">
+		<input name="optOverall" type="radio" value="E" tabindex="69">Excellent<input name="optOverall" type="radio" value="G" tabindex="71">Good<input name="optOverall" type="radio" value="F" tabindex="73">Fair<input name="optOverall" type="radio" value="S" tabindex="75">Satisfactory</span></td>
+			</tr>
+			<tr class="labelTitle">
+				<td class="fieldTitle" style="width: 445px"><span lang="en-ca"><strong>General Information:</strong></span></td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">9. Was the course outline reviewed/explained at 
+		the beginning of your course?</span></td>
+				<td><span lang="en-ca"> 
+				<input name="optOutline" type="radio" value="Y" tabindex="77">Yes<input name="optOutline" type="radio" value="N" tabindex="79">No<input name="optOutline" type="radio" value="NS" tabindex="81">Not 
+		sure</span></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px"><span lang="en-ca">10. Would you recommend this course to a friend with the same 
+		interests?</span></td>
+				<td><span lang="en-ca"> 
+				<input name="optRecommend" type="radio" value="Y" tabindex="83">Yes<input name="optRecommend" type="radio" value="N" tabindex="85">No<input name="optRecommend" type="radio" value="NS" tabindex="87">Not 
+		sure</span></td>
+			</tr>
+			<tr class="labelTitle">
+				<td class="fieldTitle" style="height: 27px; width: 445px"><span lang="en-ca"><strong>Any other comments:</strong></span></td>
+				<td style="height: 27px"></td>
+			</tr>
+			<tr>
+				<td class="labelTop" style="height: 148px; width: 445px"><span lang="en-ca">11. What is the best thing about this 
+		course?</span></td>
+				<td style="height: 148px"><textarea cols="50" name="textBest" rows="7" tabindex="89"></textarea></td>
+			</tr>
+			<tr>
+				<td class="labelTop" style="width: 445px">
+		<span lang="en-ca">12. How could we improve this course?</span></td>
+				<td>
+				<textarea cols="50" name="textImprove" rows="7" tabindex="91"></textarea></td>
+			</tr>
+			<tr>
+				<td class="labelTop" style="width: 445px">
+		<span lang="en-ca">13. Other:</span></td>
+				<td><textarea cols="50" name="txtOther" rows="7" tabindex="93"></textarea></td>
+			</tr>
+			<tr>
+				<td class="fieldLabel" style="width: 445px">
+				<input name="Submit" type="submit" value="Complete Feedback Form" tabindex="95"></td>
+				<td>
+				<input name="Reset" type="reset" value="Clear Form" tabindex="97"></td>
+			</tr>
+			<tr class="labelCenter">
+				<td class="fieldCenter" colspan="2"><span lang="en-ca">Thank you for your feedback! </span></td>
+			</tr>
+			<tr class="labelCenter">
+				<td class="fieldCenter" style="width: 445px"><span lang="en-ca">
+				<strong><a href="https://www.guelphhumber.ca/" target="_blank">Click here to visit our 
+				page! </a> </strong> </span></td>
+				<td><span lang="en-ca">
+				<a href="mailto:%20yshang04@my.centennialcollege.ca"><strong>Click here 
+				to email us!</strong></a></span></td>
+			</tr>
+		</table>
+		<h4 id="index" class="labelCenter">
+			<span lang="en-ca"><a href="../Index/index.html" target="_blank">
+			Back to Index</a></span><br>
+		</h4>
+		</form>
+</header>
+<footer>
+&copy;&nbsp;Copyright Sandy Shang - Week 09 - COMP213
+</footer>
+
+</body>
+</div>
+
+</html>
